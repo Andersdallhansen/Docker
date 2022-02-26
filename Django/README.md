@@ -8,7 +8,7 @@ pipenv shell
 
 Then start the django application
 ```bash
-python Django/manage.py runserver
+python manage.py runserver
 ```
 
 This should start your local Django application at
