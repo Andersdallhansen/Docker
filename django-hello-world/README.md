@@ -1,14 +1,15 @@
 # Hello, World! Django application inside Docker
 
-First build the docker image
+Build the docker image
 
 ```Dockerfile
 docker build -t django-hello-world .
 ```
 
-Then run it interactively
+Run the image interactively
+
 ```Dockerfile
 docker run -it -p 8000:8000  django
 ```
 
-This starts the Django application at 'http://0.0.0.0:8000/'.
+This should the Django application at http://0.0.0.0:8000/.
