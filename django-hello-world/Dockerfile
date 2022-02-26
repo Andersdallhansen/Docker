@@ -13,5 +13,3 @@ EXPOSE 8000
 
 #Run the django application
 CMD ./django-application/manage.py runserver 0.0.0.0:8000
-
-#CMD ["python", "./django-application/manage.py", "runserver"]
