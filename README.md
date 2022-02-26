@@ -1,2 +1,1 @@
-# django_application
-django_applicationPractice
+# Django and Docker practice
