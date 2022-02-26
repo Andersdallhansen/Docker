@@ -1,1 +1,1 @@
-# Django and Docker practice
+# Docker, Django and Kubernetes practice
