@@ -11,4 +11,4 @@ Then run it interactively
 docker run -it -p 8000:8000  django
 ```
 
-This starts the Django appliation at 'http://0.0.0.0:8000/'.
+This starts the Django application at 'http://0.0.0.0:8000/'.
