@@ -1,2 +1,2 @@
-# Docker
-DockerPractice
+# django_application
+django_applicationPractice

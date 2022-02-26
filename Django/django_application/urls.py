@@ -1,4 +1,4 @@
-"""docker URL Configuration
+"""django_application URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -20,5 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include('homepage.urls')),
 
-    #path('playground/', include('playground.urls'))
+    #path('homepage/', include('homepage.urls'))
 ]
