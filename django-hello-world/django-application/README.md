@@ -1,6 +1,7 @@
 # Hello, World! Django application
 
-To start the virtual environment run
+
+To run this on its own, start a virtual environment
 ```bash
 pipenv shell
 ```
