@@ -21,6 +21,11 @@ git init and create remote
 heroku git:remote -a <project_name>
 ```
 
+git push to heroku
+```Heroku
+git push heroku HEAD:master
+```
+
 open app
 ```Heroku
 heroku open
