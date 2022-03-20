@@ -9,7 +9,7 @@ docker build -t django-hello-world .
 Run the image interactively
 
 ```Dockerfile
-docker run -it -p 8000:8000  django
+docker run -it -p 8000:8000  django-hello-world
 ```
 
 This should the Django application at http://0.0.0.0:8000/.
