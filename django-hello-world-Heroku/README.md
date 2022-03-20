@@ -1,15 +1,27 @@
-# Hello, World! Django application inside Docker
+# Hello, World! Django application with Heroku
 
-Build the docker image
+Create the docker image and push it to docker hub.
 
-```Dockerfile
-docker build -t django-hello-world .
+Install Heroku
+```Heroku
+brew tap heroku/brew && brew install heroku
+```
+Login to Heroku through terminal
+```Login
+heroku login
 ```
 
-Run the image interactively
-
-```Dockerfile
-docker run -it -p 8000:8000  django
+Create Heroku app/domain
+```Heroku
+heroku create <project_name>
 ```
 
-This should the Django application at http://0.0.0.0:8000/.
+git init and create remote
+```Heroku
+heroku git:remote -a <project_name>
+```
+
+open app
+```Heroku
+heroku open
+```
