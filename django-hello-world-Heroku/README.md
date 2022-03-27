@@ -26,7 +26,9 @@ Set buildpack
 ```Heroku
 heroku buildpacks:set heroku/python
 ```
-ß
+
+update django static root path
+
 git push to heroku
 ```Heroku
 git push heroku HEAD:master
